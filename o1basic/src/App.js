@@ -1,8 +1,9 @@
 
 
 function App() {
+  const name = 'roshan rijal';
   return (
-    <h1>hello world</h1>
+    <h1>printing my name form js variable which was {name} </h1>
   );
 }
 
