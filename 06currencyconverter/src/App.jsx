@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div >
-      <p className='text-4xl text-center text-green-600 mt-5'>Welcome to currency convertor</p>
+      <p className='text-4xl text-center text-green-600 mt-5 bg-black'>Welcome to currency convertor</p>
     <div className="w-full h-screen bg-cover bg-center bg-no-repeat bg-fixed my-10" style={{ 
       backgroundImage: `url('https://cdn.pixabay.com/photo/2023/12/18/14/30/winter-8456170_1280.png')`,
     }}
