@@ -24,14 +24,15 @@ function App() {
   };
 
   return (
-    <div
-      className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
-      style={{
-        backgroundImage: `url('https://images.pexels.com/photos/29902414/pexels-photo-29902414/free-photo-of-calm-ocean-view-with-gentle-clouds-at-dusk.jpeg')`,
-      }}
-    >
-      <div className="w-full">
-        <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+    <div >
+      <p className='text-4xl text-center text-green-600 mt-5'>Welcome to currency convertor</p>
+    <div className="w-full h-screen bg-cover bg-center bg-no-repeat bg-fixed my-10" style={{ 
+      backgroundImage: `url('https://cdn.pixabay.com/photo/2023/12/18/14/30/winter-8456170_1280.png')`,
+    }}
+    >  
+  
+      <div className="w-full pt-20">
+        <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg  backdrop-blur-sm bg-white/30">
           <form
             onSubmit={(e) => {
               e.preventDefault();
@@ -72,6 +73,7 @@ function App() {
           </form>
         </div>
       </div>
+    </div>
     </div>
   );
 }
