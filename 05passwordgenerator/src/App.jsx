@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {
     passwordGenerator();
-  }, [length, numberAllowed, charAllowed, passwordGenerator])
+  }, [length, numberAllowed,charAllowed, passwordGenerator])
 
  
   
@@ -83,7 +83,7 @@ function App() {
               defaultChecked={charAllowed}
               id="characterInput"
               onChange={() => {
-                  setCharAllowed((prev) => !prev )
+                  setCharAllowed((values) => !values )
               }}
           />
           <label htmlFor="characterInput">Characters</label>

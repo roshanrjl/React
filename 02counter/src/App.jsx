@@ -1,8 +1,6 @@
 //implementation of hookes in react
 
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -37,6 +35,7 @@ function App() {
     <h2>count is:{counter}</h2>
     <br />
     <button onClick={incerasevalue}>increase count</button>
+    
     <br />
     <br />
     <button onClick={decreasevalue}>decrease count</button>
